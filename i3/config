@@ -297,8 +297,8 @@ exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec --no-startup-id blueman-applet
-exec_always ~/.i3/ctrlEsc
-exec_always ~/.i3/xrandr.sh
+exec_always ~/dotfiles/keyboard/ctrlEsc
+exec_always ~/dotfiles/xrandr/xrandr.sh
 
 
 exec --no-startup-id i3-msg 'workspace 1; exec terminal'
